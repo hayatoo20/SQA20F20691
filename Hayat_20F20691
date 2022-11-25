@@ -10,3 +10,10 @@ Public Class Form1
         Dim AmountFoorceDisscount As Double
         Dim GovtEmployeeDisscount As Double
         Dim AmountAfterDisscount As Double
+
+///Codes for convert amount into textbox3…Don BY ZUHAD
+
+       FeeAmount = Convert.ToDecimal(TextBox3.Text)
+
+       GovtEmployeeDisscount = FeeAmount * 0.1
+       AmountFoorceDisscount = FeeAmount * 0.15
